@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background: #aaaaaa;
+}
+
+span {
+    color: rgb(153, 153, 153);
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+
+.forms {
+    padding: 40px;
+    width: 500px;
+    height: 630px;
+    border-radius: 60px 0 60px 0;
+    background: rgb(0, 225, 255);
+    margin-bottom: 10px;
+}
+
+.forms input {
+    display: block;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(208, 255, 0);
+}
+
+.name,
+.sobname,
+.tel,
+.email,
+.password,
+.genero {
+    color:  rgb(153, 153, 153);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.camp-name,
+.camp-sob,
+.camp-tel,
+.camp-email,
+.camp-password {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 6px;
+    width: 400px;
+    height: 30px;
+    color: black;
+}
+
+.sexo {
+    color: rgb(0, 0, 0);
+}
+
+.btn-box {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 9px;
+    background: rgb(208, 255, 0);
+    transition: .3s;
+}
+
+.btn-box:hover {
+    background: rgb(144, 177, 0);
+    transition: .3s;
+    margin-bottom: 50px;
+}
+
+.btn-box a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 70px;
+    margin-top: 5px;
+    transition: .3s;
+}
+
+
